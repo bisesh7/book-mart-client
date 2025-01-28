@@ -1,0 +1,31 @@
+.not-found-container {
+  position: relative;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5)
+    url("https://source.unsplash.com/1920x1080/?lost"); /* Another example image URL with opacity */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; /* Set text color to white */
+
+  .display-1 {
+    color: #d9534f; /* Bootstrap's danger color */
+    margin-bottom: 0;
+  }
+
+  h2 {
+    color: #fff; /* Set text color to white */
+  }
+
+  p {
+    color: #ddd; /* Slightly lighter text color */
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    margin-top: 20px;
+  }
+}
